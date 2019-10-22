@@ -26,6 +26,9 @@ class FuSMstate;
 
 // Create a Standard Template Library <map> for containing the states
 //
+typedef map< int, FuSMstate*, less<int> > FuzzyState_Map;
+typedef FuzzyState_Map::value_type SM_VT;
+
 // NOTE: if STL is not supported on your system, then I apologize for
 // this inconvenience.  You will need to substitute its usage with a
 // similar container class.  The STL <map> is an indexable hash table
@@ -38,12 +41,19 @@ class FuSMstate;
 
 // Create a Standard Template Library <list> for membership states 
 //
+typedef list< FuSMstate* > FuzzyState_List;
+
 
 /*typedef HERE*/
 
 class FuSMclass  
 {
 	/* "SOMETHING" GOES HERE*/
+	FuzzyState_Map m_map;// map containing all the fuzzy states of this FuSM
+	FuzzyState_List m_list;// list containing only membership state
+	FuzzyState_List::iterator m_itList; // iterator for use in accessing member states
+
+	int m_iCurrentInput;// value received that triggered transitions to new membership fuzzy states
 
 public:
 	FuSMclass();
