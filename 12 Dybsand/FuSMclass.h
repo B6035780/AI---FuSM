@@ -27,7 +27,7 @@ class FuSMstate;
 // Create a Standard Template Library <map> for containing the states
 //
 typedef map< int, FuSMstate*, less<int> > FuzzyState_Map;
-typedef FuzzyState_Map::value_type SM_VT;
+typedef FuzzyState_Map::value_type FuSM_VT;
 
 // NOTE: if STL is not supported on your system, then I apologize for
 // this inconvenience.  You will need to substitute its usage with a

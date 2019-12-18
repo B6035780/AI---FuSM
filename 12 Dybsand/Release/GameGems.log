@@ -1,75 +1,24 @@
 ﻿  StdAfx.cpp
   _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
   ChildView.cpp
-c:\users\b6035780\downloads\12 dybsand\fusmclass.h(52): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(34): error C2065: 'm_iStateID': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(38): error C2065: 'm_iDegreeOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(40): error C2065: 'm_iValueOfMembership': undeclared identifier
   FSMclass.cpp
   FSMstate.cpp
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(36): warning C4018: '<': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(42): warning C4018: '<': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(64): warning C4018: '<': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(92): warning C4018: '<': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(99): warning C4018: '>=': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(108): warning C4018: '<': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(140): warning C4018: '<': signed/unsigned mismatch
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(151): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(42): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(92): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(99): warning C4018: '>=': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(108): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(140): warning C4018: '<': signed/unsigned mismatch
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(151): warning C4018: '<': signed/unsigned mismatch
   FuSMclass.cpp
-c:\users\b6035780\downloads\12 dybsand\fusmclass.h(52): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(34): error C2065: 'm_iStateID': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(38): error C2065: 'm_iDegreeOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(40): error C2065: 'm_iValueOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(35): error C2653: 'FuzzyState_List': is not a class or namespace name
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(35): error C2133: 'itL': unknown size
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(35): error C2512: 'std::iterator': no appropriate default constructor available
-  c:\program files (x86)\microsoft visual studio\2017\vc\tools\msvc\14.16.27023\include\xutility(4293): note: see declaration of 'std::iterator'
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(36): error C2653: 'FuzzyState_Map': is not a class or namespace name
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(36): error C2133: 'itM': unknown size
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(36): error C2512: 'std::iterator': no appropriate default constructor available
-  c:\program files (x86)\microsoft visual studio\2017\vc\tools\msvc\14.16.27023\include\xutility(4293): note: see declaration of 'std::iterator'
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(45): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(46): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(47): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(48): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(108): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(114): error C2653: 'FuzzyState_Map': is not a class or namespace name
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(114): error C2133: 'it': unknown size
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(114): error C2512: 'std::iterator': no appropriate default constructor available
-  c:\program files (x86)\microsoft visual studio\2017\vc\tools\msvc\14.16.27023\include\xutility(4293): note: see declaration of 'std::iterator'
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(117): error C2065: 'm_map': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(120): error C2065: 'm_map': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(120): error C2675: unary '++': 'std::iterator' does not define this operator or a conversion to a type acceptable to the predefined operator
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(122): error C2100: illegal indirection
-c:\users\b6035780\downloads\12 dybsand\fusmclass.cpp(122): error C2039: 'second': is not a member of 'std::iterator'
-  c:\program files (x86)\microsoft visual studio\2017\vc\tools\msvc\14.16.27023\include\xutility(4293): note: see declaration of 'std::iterator'
   FuSMstate.cpp
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(34): error C2065: 'm_iStateID': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(38): error C2065: 'm_iDegreeOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(40): error C2065: 'm_iValueOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(52): error C2065: 'm_iStateID': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(53): error C2065: 'm_iLowRange': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(54): error C2065: 'm_iHighRange': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(56): error C2065: 'm_iValueOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(57): error C2065: 'm_iDegreeOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(63): error C2065: 'm_iStateID': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(64): error C2065: 'm_iLowRange': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(65): error C2065: 'm_iHighRange': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(66): error C2065: 'm_iValueOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.cpp(67): error C2065: 'm_iDegreeOfMembership': undeclared identifier
   GameGems.cpp
-c:\users\b6035780\downloads\12 dybsand\gamegems.cpp(62): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
-  c:\program files (x86)\microsoft visual studio\2017\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin2.inl(1077): note: see declaration of 'CWinApp::Enable3dControlsStatic'
+c:\users\julie\source\repos\ai---fusm\12 dybsand\gamegems.cpp(62): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin2.inl(1077): note: see declaration of 'CWinApp::Enable3dControlsStatic'
   MainFrm.cpp
   TestFSMDlg.cpp
   TestFuSMDlg.cpp
-c:\users\b6035780\downloads\12 dybsand\fusmclass.h(52): error C2065: 'm_iCurrentInput': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(34): error C2065: 'm_iStateID': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(38): error C2065: 'm_iDegreeOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\fusmstate.h(40): error C2065: 'm_iValueOfMembership': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\testfusmdlg.cpp(78): error C2065: 'pzFuSMStringIDs': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\testfusmdlg.cpp(134): error C2065: 'FUSM_ID_STRING_LENGTH': undeclared identifier
-c:\users\b6035780\downloads\12 dybsand\testfusmdlg.cpp(134): error C2133: 'szLine': unknown size
-c:\users\b6035780\downloads\12 dybsand\testfusmdlg.cpp(143): error C2065: 'pzFuSMStringIDs': undeclared identifier
   Generating Code...
-c:\users\b6035780\downloads\12 dybsand\fsmstate.cpp(99): warning C4700: uninitialized local variable 'i' used
+c:\users\julie\source\repos\ai---fusm\12 dybsand\fsmstate.cpp(99): warning C4700: uninitialized local variable 'i' used
+  GameGems.vcxproj -> C:\Users\julie\source\repos\AI---FuSM\12 Dybsand\.\Release\GameGems.exe

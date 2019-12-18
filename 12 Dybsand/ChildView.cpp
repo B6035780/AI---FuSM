@@ -58,15 +58,60 @@ void CChildView::CreateFuSM()
 	// is left up to the reader.
 	
 	// create the STATE_ID_UNCARING 0 0
-
+	try
+	{
+		// FuSMclass()
+		pFuSMstate = new FuSMstate( STATE_ID_UNCARING, 0, 5 );
+	}
+	catch (...)
+	{
+		throw;
+	}
+	m_pFuSMclass->AddState(pFuSMstate);
 	// create the STATE_ID_ANNOYED 1 24
-
+	try
+	{
+		// FuSMclass()
+		pFuSMstate = new FuSMstate(STATE_ID_ANNOYED, 1, 24);
+	}
+	catch (...)
+	{
+		throw;
+	}
+	m_pFuSMclass->AddState(pFuSMstate);
 	// create the STATE_ID_MAD 25 49
-
+	try
+	{
+		// FuSMclass()
+		pFuSMstate = new FuSMstate(STATE_ID_MAD, 20, 49);
+	}
+	catch (...)
+	{
+		throw;
+	}
+	m_pFuSMclass->AddState(pFuSMstate);
 	// create the STATE_ID_RAGE 50 99
-	
+	try
+	{
+		// FuSMclass()
+		pFuSMstate = new FuSMstate(STATE_ID_RAGE, 45, 95);
+	}
+	catch (...)
+	{
+		throw;
+	}
+	m_pFuSMclass->AddState(pFuSMstate);
 	// create the STATE_ID_BERSERK 100 100
-	
+	try
+	{
+		// FuSMclass()
+		pFuSMstate = new FuSMstate(STATE_ID_BERSERK, 90, 100);
+	}
+	catch (...)
+	{
+		throw;
+	}
+	m_pFuSMclass->AddState(pFuSMstate);
 }
 
 /////////////////////////////////////////////////////////////////////////////
